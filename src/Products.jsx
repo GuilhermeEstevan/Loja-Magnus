@@ -102,7 +102,7 @@ const Products = () => {
                                         <div className='product-icon'
                                             onClick={() => {
                                                 setShowModal(!showModal)
-                                                setModalInfo([id, price, name, image, amount])
+                                                setModalInfo(product)
                                             }}>
                                             <FaSearch />
                                         </div>
