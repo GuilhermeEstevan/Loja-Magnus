@@ -824,6 +824,7 @@ p {
   background: var(--clr-white);
   position: relative;
   width: 90vw;
+  max-width: var(--max-width);
   height: 100vh;
   display: grid;
   place-items: center;
