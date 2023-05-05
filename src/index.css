@@ -824,7 +824,7 @@ p {
   background: var(--clr-white);
   position: relative;
   width: 90vw;
-  height: 60vh;
+  height: 100vh;
   display: grid;
   place-items: center;
   border-radius: var(--radius);
@@ -855,7 +855,7 @@ p {
 }
 
 .modal-img {
-  height: 20rem;
+  height: 15rem;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -904,6 +904,17 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+
+  .modal-container {
+    height: 60vh;
+  }
+
+  .modal-img {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
 
   .modal-img {
     height: 25rem;
