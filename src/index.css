@@ -211,12 +211,12 @@ p {
 .toggle-container {
   position: relative;
   margin-top: 0.75rem;
- 
+
 }
 
 .toggle-cart {
   position: fixed;
-  top: 2%;
+  top: 30px;
   right: 5%;
   z-index: 1;
   color: var(--clr-white);
@@ -228,8 +228,8 @@ p {
 
 .cart-item-count {
   position: fixed;
-  top: 1%;
-  right: 4%;
+  top: 15px;
+  right: 2%;
   z-index: 1;
   background: var(--clr-primary-5);
   width: 1.65rem;
@@ -258,6 +258,10 @@ p {
 
   .toggle-nav {
     display: none;
+  }
+
+  .cart-item-count {
+    right: 3.5%;
   }
 
   .nav-links {
